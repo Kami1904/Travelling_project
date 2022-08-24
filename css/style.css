@@ -1,0 +1,315 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+*{
+    box-sizing: border-box;
+    margin: 0 ;
+    padding: 0 ;
+}
+.promo{
+    background-image: url(../img/Rectangle\ 1.png);
+    height: 789px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container{
+    width: 1140px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 26px 0;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    list-style-type:none;
+    align-items: center;
+    gap:5px;
+}
+.burger_menu{
+    display: none;
+}
+.menu a{
+color: white;
+text-decoration: none;
+padding: 10px;
+}
+.menu a:hover{
+    color: #FFC700;
+}
+
+.promo_title{
+    font-weight: bold;
+    max-width: 700px;
+    color: white;
+    font-size: 96px;
+    line-height: 117px;
+    margin-top: 100px;
+}
+.button,.about_button{
+    width: 230px;
+    height: 50px;
+    background: linear-gradient(92.71deg, #0499DD 0%, #17C1BC 100%);
+    border-radius: 60px;
+    font-weight: 700px;
+    border: 0;
+    color: white;
+    margin-top: 55px;
+}
+.button:hover{
+    background: rgb(2,122,177);
+    background: linear-gradient(82deg, rgba(2,122,177,1) 0%, rgba(17,157,152,1) 76%);
+    cursor: pointer;
+}
+.button:active {
+    background: #222;
+}
+
+
+
+/*popular*/
+
+
+.popular_menu{
+    display: flex;
+    justify-content: space-between;
+    list-style-type:none;
+    align-items: center;
+    margin-top: 96px;
+    padding: 20px;
+}
+.popular_desc{
+    font-size: 24px;
+    line-height: 29px;
+    color: #0499DD;
+    font-weight: bold;
+}
+.more{
+    font-size: 12px;
+    line-height: 15px;  
+    color: #282828;
+    font-weight: medium;
+}
+.add_infa{
+    margin-top: 38px;
+    display: flex;
+    justify-content: space-around;
+}
+.box,.box2,.box3{
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5%;
+    height: 500px;
+    width: 360px;
+}
+.box{
+    background-image: url(../img/Rectangle11.png);
+   
+}
+.box2{
+    background-image: url(../img/rectangle12.png);
+}
+.box3{
+    background-image: url(../img/Rectangle13.png);
+}
+.popular_subtitle,.price,.popular_description{
+    font-size: 12px;
+    line-height: 15px;  
+    font-weight: medium;
+    color: white; 
+    padding-left: 16px;
+}
+.popular_subtitle{
+    padding-top: 211px;
+}
+.popular_title{
+    font-size: 13px;
+    line-height: 17px;  
+    font-weight: bold;
+    color: #FFC700; 
+    padding-top: 2px;
+    padding-left: 16px;
+}
+.price{
+    display: flex;
+    list-style-type:none;
+    gap: 13px;
+    padding-top: 10px;
+}
+.price img{
+    width: 12px;
+    height: 12px;
+    text-align: center;
+}
+.popular_description{
+    width: 320px;
+    padding-top: 20px;
+}
+.popular_button{
+    width: 160px;
+    height: 40px;
+    background: linear-gradient(92.71deg, #0499DD 0%, #17C1BC 100%);
+    border-radius: 60px;
+    border: 0;
+    color: white;
+    margin-top: 20px;
+    margin-left: 16px;
+}
+.popular_button:hover{
+    background: rgb(2,122,177);
+    background: linear-gradient(82deg, rgba(2,122,177,1) 0%, rgba(17,157,152,1) 76%);
+    cursor: pointer;
+}
+.popular_button:active {
+    background: #222;
+}
+
+
+/*more*/
+
+.about{
+    margin-top: 110px;
+    background-image: url(../img/Rectangle\ 4\ \(1\).png);
+    height: 749px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+}
+.about_more{
+    width: 542px;
+    height: 476px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 10px;
+}
+.about_title{
+   font-size: 24px;
+    line-height: 29px;   
+    font-weight: bold;
+    color:#0499DD; 
+    padding-top: 60px;
+    padding-left: 85px;
+}
+.about_desc,.about_desc1{
+    font-size: 14px;
+    line-height: 17px;   
+    font-weight: bold;
+    padding-top: 40px;
+    padding-left: 85px;
+    padding-right: 75px;
+}
+.about_button:hover{
+    background: rgb(2,122,177);
+    background: linear-gradient(82deg, rgba(2,122,177,1) 0%, rgba(17,157,152,1) 76%);
+    cursor: pointer;
+}
+.about_button:active {
+    background: #222;
+}
+
+/*tours*/
+.type{
+    font-size: 24px;
+    line-height: 29px;  
+    font-weight: bold;
+    color: #0499DD;
+    margin-top: 100px; 
+}
+.trip{
+    margin-top: 95px; 
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.block{
+    width: 550px;
+    display: flex;
+}
+.block img{
+    padding-right: 30px;
+    height: 74px;
+    margin-top: -40px;
+}
+.trip_title{
+    font-size: 18px;
+    line-height: 22px;  
+    font-weight: bold;
+    color: #0499DD;
+    margin-bottom: 20px; 
+    margin-left: 105px;
+}
+.about_button{
+    margin-top: 20px;
+    margin-left: 450px;
+}
+.site{
+    width: 500px;
+    font-size: 14px;
+    line-height: 17px;   
+    margin-top: 60px;
+    margin-left: 300px;
+    text-align: center;
+}
+/*images*/
+.images{
+margin-top: 100px;
+margin-left: 160px;
+}
+.grid_container{
+    display: grid;
+    grid-template-columns: repeat(5,180px);
+    grid-template-rows: repeat(4, minmax(130px, auto)); 
+    grid-auto-rows: minmax(150px, auto);
+    gap: 10px;
+}
+.image{
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+}
+.image img{
+    width: 100%;
+ 
+}
+#image__1{
+    background-image: url(../img/photo1.png);
+    grid-column: 1/3;
+    grid-row:  1/3;
+}
+#image__2{
+    background-image: url(../img/photo2.png);
+    grid-column: 3/4;
+    grid-row:  1/5;
+}
+#image__3{
+    background-image: url(../img/photo3.png);
+    grid-row:  1/3;
+}
+#image__4{
+    background-image: url(../img/photo4.png);
+    grid-row:  1/3;
+}
+#image__5{
+    background-image: url(../img/photo5.png);
+    grid-row:  3/5;
+}
+#image__6{
+    background-image: url(../img/photo6.png);
+    grid-row:  3/4;
+    grid-column: 2/3;
+}
+#image__7{
+    background-image: url(../img/photo7.png);
+    grid-row:  4/5;
+}
+#image__8{
+    background-image: url(../img/photo8.png);
+    grid-row:  3/5;
+    grid-column: 4/6;
+}
